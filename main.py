@@ -51,12 +51,12 @@ for filepath in filepaths:
 
     # add total sum sentence
     pdf.set_font(family="Times", size=10, style="B")
-    pdf.cell(w=25, h="8", txt=f"The total price is {total_sum}", ln=1)
+    pdf.cell(w=25, h=8, txt=f"The total price is {total_sum} euros", ln=1)
 
     # add company name and logo
     pdf.set_font(family="Times", size=14, style="B")
-    pdf.cell(w=25, h=8, txt=f"PythonHow")
-    pdf.image("pythonhow.png", w=10)
+    pdf.cell(w=27, h=8, txt=f"PythonHow")
+    pdf.image("pythonhow.png", w=9)
 
 
 
